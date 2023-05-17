@@ -1,0 +1,13 @@
+const { Pool, Client } = require('pg')
+
+let db = new Pool({
+  user: 'xdev',
+  host: '0.0.0.0',
+  database: 'database',
+  password: 'password',
+  port: 5432,
+})
+
+
+
+module.exports = {db} 

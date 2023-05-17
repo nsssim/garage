@@ -1,0 +1,10 @@
+
+
+let email = {
+  
+  user: 'email@domai.com' ,
+  pass:  'email_pass' ,
+  
+}
+
+module.exports = {email} 

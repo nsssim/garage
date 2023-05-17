@@ -1,0 +1,4 @@
+
+exports.secret = 'Random string here'
+
+
